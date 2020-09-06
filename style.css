@@ -1,0 +1,26 @@
+#header01{
+    position: absolute;
+}
+.main{
+    background-color: #4F3E6A;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.app-img{
+    width: 50%;
+    float: left;
+}
+.app-img img{
+    padding-left: 25%;
+    padding-top: 10%;
+    height: auto;
+    width: 100%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.app-img img:hover{
+    transform: rotate(-3deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn-toolbar{
+    grid-template-columns: 50% 50%;
+}
